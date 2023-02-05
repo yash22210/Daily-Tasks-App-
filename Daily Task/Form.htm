@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<!--- 
+    Yash Patel , Student number : 000842226, Date : Sept 29, 2021 --->
+
+<head>
+    <title>Daily Task </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Adding the css stylesheet for form page-->
+    <link rel="stylesheet" href="css/Form.css">
+</head>
+
+<body>
+
+    <div class="heading">
+		<h2 style="font-style: 'Hervetica';">Daily Task</h2>
+    </div>
+    
+    <form action = "form.php" method="GET">
+        
+    <div class="dateLabel">
+        <label id="date">Today's Date: </label>
+        <br>
+         <input type="date" id="date" name="date" required ><br>
+    </div>
+
+    <form>
+<!--- The div which includes the tasks--->
+    <div class="tasks">
+
+        <div>
+            <br>
+            <!--- This is task 1 with all information included --->
+            <label> Task 1: </label>
+        <br>
+
+
+
+            <input type="text" id="description" placeholder="Description" name = "Description1" required>
+            <label> Start Time </label>
+            <input type = "time" id = "time" name = "Starttime1" required>
+            <label> End Time </label>
+            <input type = "time" id = "time" name = "Endtime1" required>
+         
+        </div>
+
+    <br>
+
+            <!--- This is task 2 with all information included --->
+        <div>
+            <label> Task 2: </label><br>
+            <input type="text" id="description" placeholder="Description" name = "Description2" >
+            <label> Start Time </label>
+            <input type = "time" id = "time" name = "StartTime_Task_2" >
+            <label> End Time </label>
+            <input type = "time" id = "time" name = "EndTime_Task_2">
+        </div>
+    <br>
+
+
+        <div>
+            <label> Task 3: </label><br>
+            <input type="text"  id="description" placeholder="Description" name="Description3" >
+            <label> Start Time </label>
+            <input type = "time"  id = "time" name = "StartTime_Task_3">
+            <label> End Time </label>
+            <input type = "time" id = "time" name = "endTime3">
+        </div>
+    <br>
+
+        <div>
+            <label> Task 4: </label><br>
+            <input type="text" id="description" placeholder="Description" name="Description4" >
+            <label> Start Time </label>
+            <input type = "time"  id = "time"name = "startTime4">
+            <label> End Time </label>
+            <input type = "time"  id = "time"name = "endTime4">
+        </div>
+    <br>
+
+
+        <div>
+            <label> Task 5: </label><br>
+            <input type="text" id="description" placeholder="Description" name="Description5" >
+            <label> Start Time </label>
+            <input type = "time" id = "time" name = "startTime5">
+            <label> End Time </label>
+            <input type = "time" id = "time" name = "endTime5">
+        </div>
+</div>
+<!--- This is Submit Button with "submitbutton" as an id for css file--->
+<div>
+    <input type="submit" id = "submitbutton" value="Submit">
+
+</div>
+</form>
+    </form>
+</body>
+
+</html>

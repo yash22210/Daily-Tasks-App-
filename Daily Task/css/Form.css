@@ -1,0 +1,64 @@
+
+
+    .heading {
+        width: 50%;
+        margin: 30px auto;
+        text-align: center;
+        color: 	#0a0500;
+        background: #ffd941;
+        border: 2px solid #040501;
+        border-radius: 20px;
+        }
+    
+    
+        .dateLabel{
+        width: 15%;
+        height: 50pt;
+        margin: 30px ;
+        text-align: center;
+    
+        color: 	#0a0500;
+        background: #ffd941;
+        border: 2px solid #040501;
+        border-radius: 20px;
+    
+    
+        }
+    
+        #date{
+            background-color: #ffd941;
+            font-size: large;
+        }
+    
+        .tasks{
+    
+        width: 90%;
+        margin: 30px auto;
+        text-align: left;
+        color: 	#0a0500;
+        background: #ffd941;
+        border: 2px solid #040501;
+        border-radius: 10px;
+        font-size: 15pt;
+        }
+        #description{
+    
+            width: 40%;
+            height: 40pt;
+            border-radius: 10px;
+            font-size: 20px;
+    
+        }
+        #time{
+            width: 10%;
+            height: 30pt;
+            font-size: 20px;
+    
+        }
+        #submitbutton{
+            width: 20%;
+            height: 40pt;
+            font-size: 25px;
+            background-color: #ffd941;
+            font-weight: bold;
+        }
